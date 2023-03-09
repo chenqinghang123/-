@@ -1,3 +1,6 @@
+
+
+```
 pwd :显示当前终端会话所在的目录位置
 
 ls :  显示当初目录的所有文件
@@ -10,7 +13,9 @@ Ecs 退出然后英文冒号: wq  保存并退出
 
   git config   配置git信息
 （
-git config --global ![img](file:///C:\Users\hang\AppData\Roaming\Tencent\QQTempSys\%W@GJ$ACOF(TYDYECOKVDYB.png)user.name "Your Name"
+git config --global 
+
+user.name "Your Name"
 git config --global user.email "email@example.com"
 ）
 git init        初始化仓库-把当前的项目目录使用git软件进行管理，得到一个.git的隐藏文件夹
@@ -22,7 +27,6 @@ git push -u origin "master"       把本地仓库里面的内容上传到远程�
 git clone 远程仓库地址          把已经托管到服务器的代码克隆下来
 git log --oneline         查看提交的历史记录
 git reset --hard 版本号         回滚
-
 
 分支
 
@@ -36,3 +40,5 @@ git reset --hard 版本号         回滚
 \3. 切换分支   git checkout 分支名称  /  git switch 分支名称
 \4. 合并分支   git merge 分支名称
 \5. 删除分支   git branch -D 分支名称  
+```
+
